@@ -133,8 +133,8 @@ class MyGame:
                 elif item.type == KEYDOWN and item.key == K_SPACE:
                     moves = self.roll_dice()
                     self.move_player(moves)
-            moves = self.roll_dice()
-            self.move_player(moves)
+            #moves = self.roll_dice()
+            #self.move_player(moves)
 
 if __name__ == '__main__':
     my_game = MyGame()
