@@ -1,10 +1,9 @@
-import pygame as pg
-from pygame import font, Surface, draw
-from constants import BLACK, COLOUR_LIST, BLUE_IMAGE, GRAY_IMAGE, WORLD_SIZE, TILES, TILE_SIZE
+from pygame import font, Surface, draw, init
+from constants import COLOUR_LIST, BLUE_IMAGE, GRAY_IMAGE, WORLD_SIZE, TILES, TILE_SIZE
 from itertools import cycle
 from random import randrange
 
-pg.init()
+init()
 
 def make_background(): # this function creates a single image background
     # set up a simple list of images that we can iterate through

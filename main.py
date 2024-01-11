@@ -1,8 +1,7 @@
-from pygame import display, event, time, font, draw, quit, MOUSEBUTTONDOWN, QUIT, KEYDOWN, K_SPACE
+from pygame import display, event, time, font, draw, quit, QUIT, KEYDOWN, K_SPACE
 from constants import OFFSET, TILE_SIZE, COLOURS, BLACK, COLOUR_LIST
 from setup import make_background, add_snakes_and_ladders, add_players
 from random import randint
-from math import floor, ceil
 
 class MyGame:
     def __init__(self):
